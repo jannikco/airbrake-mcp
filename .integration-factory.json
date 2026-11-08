@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "status": "ready",
+  "verification": "mock-only",
+  "releaseEligible": true,
+  "maintainer": "jannikco",
+  "license": "MIT",
+  "sourceRevision": "0051a355dd0418ec593d519086cd87bc8c464af11b6327e3949743ded4a24e89",
+  "evidence": [
+    "Source-backed provider setup metadata",
+    "Offline configuration and MCP protocol tests"
+  ],
+  "provenance": [
+    "https://docs.airbrake.io/docs/devops-tools/api/"
+  ],
+  "id": "airbrake-mcp",
+  "kind": "mcp-setup",
+  "product": "pipmcp",
+  "title": "Airbrake MCP setup and connection checker",
+  "description": "Generate Airbrake MCP client configuration, inspect available tools and validate hosted endpoint access through PipMCP.",
+  "operationIds": [],
+  "appSlug": "airbrake",
+  "appName": "Airbrake",
+  "providerDocs": "https://docs.airbrake.io/docs/devops-tools/api/",
+  "providerWebsite": "https://www.airbrake.io/",
+  "authentication": {
+    "type": "api_key_query",
+    "requiredCredentialFields": [
+      "api_key"
+    ],
+    "requiredHeaderNames": [],
+    "helpUrl": "https://docs.airbrake.io/docs/devops-tools/api/",
+    "tenantRequired": false,
+    "accountParameterNames": []
+  },
+  "attributionSlug": "github-airbrake-mcp",
+  "factory": "leadadapter-pipmcp",
+  "generatorVersion": 1
+}
