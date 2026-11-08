@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0",
+  "product": "pipmcp",
+  "credential": "PIPMCP_API_KEY",
+  "skills": [
+    {
+      "name": "pipmcp-airbrake",
+      "description": "Connect AI agents to Airbrake using one PipMCP API key and actual hosted tool discovery."
+    }
+  ],
+  "files": {
+    "skills/pipmcp-airbrake/SKILL.md": "7c52f4722667f655b690cf65c2c474e4d6b8e6bfde1e03e71298ae52da2bae36"
+  }
+}
